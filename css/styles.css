@@ -1,0 +1,49 @@
+body{
+    /* font-family: 'Istok Web', sans-serif; */
+}
+
+h2{
+    font-size: 2.5rem;
+}
+.encabezado{
+    background-image: url(../img/imagen_2.jpg);
+    background-position:center;
+    background-size: cover;
+    min-height: 40rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.encabezado::after{
+    content: '';
+    background-color: rgba(0,0,0,.2);
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.contenido-encabezado{
+    /* color: #ffffff; */
+    color: #263744;
+    z-index: 1;  
+    /* font-family: 'Architects Daughter', cursive; */
+    font-family: 'Permanent Marker', cursive;
+}
+
+.principal{
+    max-width: 120rem; 
+    margin: 0 auto;
+}
+
+.foot{
+    background-color: #263744;
+    font-family: 'Permanent Marker', cursive;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+}
