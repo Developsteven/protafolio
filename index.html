@@ -14,9 +14,8 @@
 </head>
 
 <body>
-  <header class="text-center">
     <div class="">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+      <nav class="navbar navbar-expand-lg ps-5 navbar-dark pegado">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">SP</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -26,13 +25,13 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
+                <a class="nav-link active" aria-current="page" href="#sobre_mi">Sobre mi</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Proyectos</a>
+                <a class="nav-link" href="#proyectos">Proyectos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
             </ul>
           </div>
@@ -42,16 +41,19 @@
 
     <section>
       <div class="encabezado principal mb-5">
-        <div class="contenido-encabezado">
+        <div class="contenido-encabezado centrar">
           <h2>Steven Perez</h2>
-          <span>I'm Developer</span>
+          <span >I'm Developer</span>
         </div>
       </div>
     </section>
   </header>
-
+  <a name="sobre_mi"></a>
 
   <section class="container-lg mb-5">
+    <div>
+      <h2 class="mb-4 text-center">Sobre Mi</h2>
+    </div>
     <div class="card mb-6 text-start">
       <div class="row g-0">
         <div class="col-md-3">
@@ -61,13 +63,15 @@
           <div class="card-body">
             <h5 class="card-title">Hola!</h5>
             <p class="card-text">Mi nombre es Steven Perez y soy Desarrollador
-              amo el mocachino, escuchar musica Electronica y Leer.</p>
+              me encanta el capuchino, la musica Electronica y La lectura.</p>
+              <p class="card-text"></p>
           </div>
         </div>
       </div>
     </div>
   </section>
-
+  
+  <a name="proyectos"/>
   <section class="container-lg text-center mb-5">
     <div>
       <h2 class="mb-5">Proyectos</h2>
@@ -78,12 +82,12 @@
           <img src="img/bienes4.png" class="card-img-top" alt="">
           <div class="card-body">
             <h5 class="card-title">Novedades Aprendiz</h5>
-            <p class="card-text">Es un proyecto que se crea para gestionar todas las novedades que un Aprendiz
-              puede tener durante su etapa de formacion, tanto academicas como disciplinarias y registra que tipo de
-              novedad incurre y en que feccha se registra.</p>
+            <p class="card-text">Es un proyecto que se crea para gestionar 
+              todas las novedades que un Aprendiz puede tener durante su etapa de formación,
+               tanto académicas como disciplinarias y registra qué tipo de novedad incurre y en que fecha se registra.</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Srpring Boot - Angular - MySql</small>
+            <small class="text-muted">Spring Boot - Angular - MySql</small>
           </div>
         </div>
       </div>
@@ -92,10 +96,10 @@
           <img src="img/cafe.png" class="card-img-top" alt="">
           <div class="card-body">
             <h5 class="card-title">Blog de Cafe</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, laborum. Sint
-              labore,
-              numquam cum harum atque blanditiis nam! Unde expedita alias inventore similique itaque, dolor quis in sed
-              exercitationem eligendi.</p>
+            <p class="card-text">se realiza un pagina web con estido de tienda de cafe, este diseño 
+              me ayudo a conocer la estrucutra html sus direfentes etiquetas y tambien por medio del css le di
+              algo de estilo para serlo mas agradable a la vista, es algo sencillo y espero les guste.
+            </p>
           </div>
           <div class="card-footer">
             <small class="text-muted">HTML - CSS</small>
@@ -118,7 +122,10 @@
     </div>
   </section>
 
+ 
+
   <section class="container-lg text-center mb-5">
+    <a name="contacto"></a>
     <h2>Contacto</h2>
     <img src="img/github.svg" class="m-3" style="max-width: 60px;" alt="">
     <img src="img/linkedin.svg" class="m-3" style="max-width: 60px;" alt="">
