@@ -5,73 +5,68 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio</title>
+  <title>Steven Perez</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&family=Permanent+Marker&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <div class="">
-      <nav class="navbar navbar-expand-lg ps-5 navbar-dark pegado">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">SP</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#sobre_mi">Sobre mi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#proyectos">Proyectos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contacto">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-
-    <section>
-      <div class="encabezado principal mb-5">
-        <div class="contenido-encabezado centrar">
-          <h2>Steven Perez</h2>
-          <span >I'm Developer</span>
+  <div class="">
+    <nav class="navbar navbar-expand-lg ps-5 navbar-dark pegado">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">SP</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre_mi">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </section>
+    </nav>
+  </div>
+
+  <section>
+    <div class="encabezado principal mb-5">
+      <div class="contenido-encabezado centrar">
+        <h2>Steven Perez</h2>
+        <span>I'm Developer</span>
+      </div>
+    </div>
+  </section>
   </header>
   <a name="sobre_mi"></a>
 
   <section class="container-lg mb-5">
     <div>
-      <h2 class="mb-4 text-center">Sobre Mi</h2>
+      <h2 class="mb-5 text-center">Sobre Mi</h2>
     </div>
-    <div class="card mb-6 text-start">
-      <div class="row g-0">
-        <div class="col-md-3">
-          <img src="img/foto.JPG" class="img-fluid rounded-bottom " alt="...">
-        </div>
-        <div class="col-md-9">
-          <div class="card-body">
-            <h5 class="card-title">Hola!</h5>
-            <p class="card-text">Mi nombre es Steven Perez y soy Desarrollador
-              me encanta el capuchino, la musica Electronica y La lectura.</p>
-              <p class="card-text"></p>
-          </div>
-        </div>
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col text-center">
+        <img src="img/foto.JPG" class="img-fluid rounded-bottom " alt="...">
       </div>
-    </div>
+      <div class="col mt-4">
+        <h5 class="card-title">Hola!</h5>
+        <p>Mi nombre es Steven Perez y soy Desarrollador
+          me encanta el capuchino, la musica Electronica y La lectura.</p>
+      </div>
   </section>
-  
-  <a name="proyectos"/>
+
+  <a name="proyectos" />
   <section class="container-lg text-center mb-5">
     <div>
       <h2 class="mb-5">Proyectos</h2>
@@ -79,12 +74,17 @@
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
         <div class="card h-100">
-          <img src="img/bienes4.png" class="card-img-top" alt="">
+          <img src="img/detalle_aprendiz.png" class="card-img-top" alt="">
           <div class="card-body">
             <h5 class="card-title">Novedades Aprendiz</h5>
-            <p class="card-text">Es un proyecto que se crea para gestionar 
+            <p class="card-text">Es un proyecto que se crea para gestionar
               todas las novedades que un Aprendiz puede tener durante su etapa de formación,
-               tanto académicas como disciplinarias y registra qué tipo de novedad incurre y en que fecha se registra.</p>
+              tanto académicas como disciplinarias y registra qué tipo de novedad incurre y en qué fecha se registra.
+              
+            </p>
+            <!-- <button class="btn btn-danger"><a href="https://github.com/Developsteven/Frontend-N">Frontend Aqui </a></button> -->
+            <!--             <p> GitHub : <a href="https://github.com/Developsteven/Frontend-N">Frontend Aqui </a></p>
+            <p> GitHub : <a href="https://github.com/Developsteven/Arquitectura_Rest">Backend Aqui </a></p> -->
           </div>
           <div class="card-footer">
             <small class="text-muted">Spring Boot - Angular - MySql</small>
@@ -96,9 +96,9 @@
           <img src="img/cafe.png" class="card-img-top" alt="">
           <div class="card-body">
             <h5 class="card-title">Blog de Cafe</h5>
-            <p class="card-text">se realiza un pagina web con estido de tienda de cafe, este diseño 
-              me ayudo a conocer la estrucutra html sus direfentes etiquetas y tambien por medio del css le di
-              algo de estilo para serlo mas agradable a la vista, es algo sencillo y espero les guste.
+            <p class="card-text">Se realiza una página web con estilo de tienda de café, este diseño
+              me ayudo a conocer la estructura HTML sus diferentes etiquetas y también por medio del
+              CSS le di algo de estilo para fuera más agradable a la vista, es algo sencillo y espero les guste.
             </p>
           </div>
           <div class="card-footer">
@@ -110,26 +110,28 @@
         <div class="card h-100">
           <img src="img/imagen_1.jpg" class="card-img-top" alt="">
           <div class="card-body">
-            <h5 class="card-title">Microservicios con Spring boot</h5>
-            <p class="card-text">Este proyecto es para aprender como funcionan las microservicios.
+            <h5 class="card-title">Asignacion de Citas</h5>
+            <p class="card-text">Se crea una aplicación web para el control de citas de un salón de belleza.
             </p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Spring boot - Spring Cloud</small>
+            <small class="text-muted">Spring boot - Angular</small>
           </div>
         </div>
       </div>
     </div>
   </section>
 
- 
-
   <section class="container-lg text-center mb-5">
     <a name="contacto"></a>
     <h2>Contacto</h2>
-    <img src="img/github.svg" class="m-3" style="max-width: 60px;" alt="">
-    <img src="img/linkedin.svg" class="m-3" style="max-width: 60px;" alt="">
-    <img src="img/twitter (1).svg" class="m-3" style="max-width: 60px;" alt="">
+    <a href="https://github.com/Developsteven" target="_black"><img src="img/github.svg" class="m-3" style="max-width: 60px;"
+        alt=""></a>
+    <a href="https://www.linkedin.com/in/steven-perez-garzon-535389b3" > <img src="img/linkedin.svg" class="m-3"
+        style="max-width: 60px;" alt=""></a>
+    <a href="https://twitter.com/DevelopSteven_" target="_black"><img src="img/twitter (1).svg" class="m-3" style="max-width: 60px;"
+        alt="" ></a>
+
   </section>
 
 
